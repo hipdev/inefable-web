@@ -1,5 +1,3 @@
-import { Footer, Header } from '@/design-system/index'
-
 export default function SiteLayout({
   children,
 }: {
@@ -7,11 +5,8 @@ export default function SiteLayout({
 }) {
   return (
     <main>
-      <div className='main-wrapper'>
-        <Header />
-      </div>
+      <div className='main-wrapper'></div>
       {children}
-      <Footer />
     </main>
   )
 }
