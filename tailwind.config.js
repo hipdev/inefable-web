@@ -11,7 +11,7 @@ module.exports = {
         sans: ['var(--font-inter)'],
       },
       colors: {
-        primary: '#29ACF5',
+        primary: '#590696',
       },
       borderRadius: {
         '2sm': '4px',
