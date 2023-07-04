@@ -4,7 +4,7 @@ import heroImage from 'public/family.jpeg'
 
 export default function HomeHero() {
   return (
-    <section className='home-hero relative bg-gradient-to-t from-gray-100 to-white pb-16 pt-10 lg:pt-0'>
+    <section className='relative h-[80vh] bg-gradient-to-t from-gray-100 to-white pb-16 pt-10 lg:pt-0'>
       <div className='main-wrapper relative z-10 flex h-full items-center backdrop-blur-sm md:backdrop-blur-0'>
         <div className='md:w-1/2'>
           <Title size='huge' className='mb-7 font-bold' as='h2'>

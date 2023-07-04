@@ -1,11 +1,8 @@
 import Link from 'next/link'
 
 const links = [
-  { name: 'Home', path: '/' },
-  { name: 'Providers', path: '/providers' },
-  { name: 'Contact us', path: '/contact-us' },
-  { name: 'Contracts', path: '/contracts' },
-  { name: 'Blog', path: '/blog' },
+  { name: 'Inicio', path: '/' },
+  { name: '¿Qué es?', path: '/about' },
 ]
 
 const HeaderNav = () => {

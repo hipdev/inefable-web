@@ -1,23 +1,24 @@
 import Link from 'next/link'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { HiPhone } from 'react-icons/hi'
+import { HiDeviceMobile, HiLogin, HiPhone } from 'react-icons/hi'
 import { Button } from '@/design-system/index'
 
 import HeaderNav from './HeaderNav'
 
 export const Header = () => {
   return (
-    <header className='flex items-center justify-between py-5'>
+    <header className='main-wrapper mb-10 flex items-center justify-between py-5'>
       <div className='flex items-center gap-8 xl:gap-16'>
-        <Link href='/'>I</Link>
+        <Link href='/' className='text-2xl font-bold'>
+          Inefable
+        </Link>
         <HeaderNav />
       </div>
       <div className='hidden gap-2 lg:flex'>
-        <Button intent='secondary'>Login</Button>
-        <Button intent='secondary'>Join us</Button>
+        <Button intent='secondary'>Ingreso web próximamente</Button>
 
         <Button className='flex items-center gap-1'>
-          <HiPhone /> Call (737) 237-2900
+          <HiDeviceMobile /> Descargar app
         </Button>
       </div>
       <div className='flex gap-4 lg:hidden'>
